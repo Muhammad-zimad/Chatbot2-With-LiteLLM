@@ -1,0 +1,17 @@
+[project]
+name = "chatbotlm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.5.5",
+    "litellm>=1.72.6",
+]
+
+[project.scripts]
+chatbotlm = "chatbotlm:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
